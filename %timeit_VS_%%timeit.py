@@ -6,7 +6,7 @@
 # The difference between %timeit and %%timeit in Python is based on where they are used and what they measure:
 # ----------------------------------------------------------------------------------------------------------------------
 # | Command  | Scope	  | Usage	                                             | Example                             |
-# |----------|------------|------------------------------------------------------|-------------------------------------|
+# ----------------------------------------------------------------------------------------------------------------------
 # | %timeit  | Line magic | Measures the execution time of a single line of code | %timeit [x**2 for x in range(1000)] |
 # | %%timeit | Cell magic | Measures execution time for the entire cell          | %%timeit (on the first line)        |
 # |          |            | (multiple lines of code)                             | followed by multiple lines of code  |
