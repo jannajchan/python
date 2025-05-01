@@ -5,12 +5,12 @@
 
 # What’s the Difference Between Formal and Literal in Python?
 # -----------------------------------------------------------------------------------------------------------------
-# | Aspect		    | Literal Definition					| Formal Definition                                   |
-# |-----------------|---------------------------------------|-----------------------------------------------------|
-# | Syntax		    | [], (), {}							| list(), tuple(), dict()                             |
-# | Performance	    | Faster ✅							   | Slower (function call overhead) ❌                  |
-# | Readability	    | More concise ✅					   | More explicit but verbose ❌                        |
-# | Use Cases		| Recommended for quick declarations	| Useful in cases like dynamically constructing types |
+# | Aspect          | Literal Definition                    | Formal Definition                                   |
+# -----------------------------------------------------------------------------------------------------------------
+# | Syntax          | [], (), {}                            | list(), tuple(), dict()                             |
+# | Performance     | Faster ✅                             | Slower (function call overhead) ❌                 |
+# | Readability     | More concise ✅                       | More explicit but verbose ❌                       |
+# | Use Cases       | Recommended for quick declarations    | Useful in cases like dynamically constructing types |
 # -----------------------------------------------------------------------------------------------------------------
 
 # When to use formal definitions?
