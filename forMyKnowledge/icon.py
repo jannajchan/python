@@ -6,10 +6,10 @@
 🚀🎯🧩📚
 ✨🌟💡⚡💬💨
 🔥💥🧨🚨
-🖼️📜📋🔤🔠🔢💯
-🧹✂️🧵
+🖼️📜📋
+🧹✂️🧵🪜
 🔑🏛️🌼🎁🔬
-❗❓🛑🔴🟡🔵🔹🌀
+❗❓🛑🔴🟡🔵🌀🔹🔸
 
 >> Arrow
 Left	⬅️◀️↩️←⇐🡸
@@ -86,6 +86,38 @@ Languages		🌐,🗣️ Language proficiency
 🔔		Notifications
 📢		Announcements or Alerts
 
+-----------------------
+| Alphabets & Numbers |
+-----------------------
+>> Alphabet Emojis (A–Z)
+Category	 Emoji/Icon			 Meaning
+🔤			Alphabet input		Typing English letters
+🔠			A–Z input			Uppercase letters
+🔡			a–z input			Lowercase letters
+🆎			AB					Blood type / Mixed input
+🅰️			 A button			 Letter A
+🅱️			 B button			 Letter B
+🆑			CL					Clear
+🆘			SOS					Emergency / Alert
+
+>> Special Alphanumeric Symbols
+🔣	Symbol input
+🆗	OK
+🆙	UP
+🆒	COOL
+🆕	NEW
+🆓	FREE
+🅿️
+
+>> Numbers
+🔢0️⃣1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟💯
+
+>> Enclosed Alphanumerics (for more stylized use)
+Unicode includes circled versions and parenthesized digits:
+Circled				➄, ⑤, ⓹
+Parenthesized		⑴, ⑵, ⑶, …
+Full-width (Wide)	０, １, ２, …
+
 ---------------------
 | Emotions / Emojis | ⇐ Perfect for chat, apps, mood tracking, or storytelling.
 ---------------------
@@ -99,6 +131,7 @@ Languages		🌐,🗣️ Language proficiency
 🤗	Hugging / Caring
 🤩	Excited / Amazed
 🥰	Affectionate / Loving
+🥳	Party / Great job vibe
 
 >> Neutral or Mixed Emotions
 😐	Neutral / Blank
@@ -128,6 +161,45 @@ Languages		🌐,🗣️ Language proficiency
 🫠	Melting / Defeated
 😇	Innocent / Pure
 🥳	Celebrating / Party
+🕐–🕘 Clock face emojis (for 1–9)
+
+-----------------
+| Hand gestures | ⇐ Great for UI feedback, conversation, reaction buttons, or instructions.
+-----------------
+>> Approval / Agreement
+👍	Good job / Approval / Thumbs up / Like
+👌	OK / Perfect
+✌️	Peace / Victory
+🤙	Call me / Chill
+🤝	Handshake / Agreement / Great cooperation
+🫶	Heart hands / Care
+
+>> Disapproval / Caution
+👎	Thumbs down / Dislike
+✋  Stop / Wait
+🖐️  Raise hand / Attention
+🫳	Lowering hand / Dropping something
+🫷 🫸  Push left/right gesture
+
+>> Greetings & Farewells
+👋	Hello / Goodbye
+🤚	Raised hand / Question
+🫱	Palm up / Asking
+🫲	Palm sideways / Offering
+
+>> Reactions / Emotions
+👏	Applause / Well done
+🙌	Celebration / High five / Victory together
+🤟	Love you (ASL sign)
+✍️	Writing / Signing
+💪	Strength / You nailed it / Accomplishment
+
+>> Pointers & Direction
+👉	Point right
+👈	Point left
+👆	Point up
+👇	Point down
+🫵	You / Direct callout
 
 ------------------------------------------
 | Idea, knowledge, thinking and learning | ⇐ Perfect for education content, presentations, apps, or messaging.
@@ -153,36 +225,34 @@ Languages		🌐,🗣️ Language proficiency
 | Achievements, success, awards, goals, and targets | ⇐ Useful for resumes, gamification, education platforms, presentations, and more.
 -----------------------------------------------------
 >> Achievements & Awards & Trophies
-🏆	Trophy / First place / Champion / Victory / Award
-🥇	Gold medal / Winner / 1st place / Top performer
+🏆	Achievement / Trophy / First place / Champion / Victory / Award / Winner
+🥇	Gold medal / 1st place / Top performance / Best result
 🥈	Silver medal / 2nd place
 🥉	Bronze medal / 3rd place
-🎖️  Medal / Honor / Recognition
 🏅	Achievement / Badge / Skill achieved / Skill recognition	
+🎖️  Medal / Honor / Recognition / Accomplishment
 
 >> Success & Excellence
-🌟	Star / Outstanding performance
+🌟	Star performer / Outstanding performance / Shining effort
 ✨  Sparkle / Impressive result
 💎	Valuable / Top tier
 🎯	Goal hit / Objective achieved
-💪	Strength / Accomplishment
-🚀	Breakthrough / Launch success
 
 >> Progress (Toward Goals) & Growth
 📈	Growth / Upward trend / Progress made
-🔝	Top / Best performance
 🔰	Beginner’s milestone
 🧗	Challenge overcome / Climbing up
-🎉	Celebration / Completion
+🎉	Celebration / Completion / Congrats
 🥂	Celebration of success / Toast to success / Completion
 🛤️  On the right track / Journey
-🔜	Soon / Coming up / Next milestone
 🧗	Climbing toward goal / Effort
-🚀	Launch / Major progress
+🚀	Breakthrough / Launch success / Launch / Major progress
+🔝	Top / Best performance
+🔜	Soon / Coming up / Next milestone
 
 >> Targets & Goals
 🎯	Direct hit / Goal achieved
-🥅	Goal / Objective
+🥅🏁 Goal / Objective
 📌	Pinned goal / Priority
 📍	Target location / Focus point
 🧭	Direction / Navigation toward goal
@@ -194,6 +264,19 @@ Languages		🌐,🗣️ Language proficiency
 ⏳  In progress / Patience
 🔄	Reworking / Iteration
 📅	Deadline / Timeline
+
+-----------------------------------------------
+| Great, Well done, True, Passed, Nicely done | ⇐ Great for quizzes, feedback messages, badges, or motivational content.
+-----------------------------------------------
+>> Confirmation / Passed / True
+✅  Confirmed / Passed / Correct
+✔️	Checkmark / True
+☑️	Checkbox / Marked complete
+🟢	Green = Approved / Valid
+🔓	Unlocked / Access granted
+
+>> Great Job / Excellence
+💯	Perfect / Excellent
 
 >> Symbols
 §	Section
