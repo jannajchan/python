@@ -5,11 +5,26 @@
     https://docs.python.org/3/howto/regex.html#regex-howto
 # ----------------------------------------------------------------------------------------------------------------------
 r = Python’s raw string notation for regular expression patterns
+.   Period
+!   Exclamation mark
+?   Question mark
+,   Comma
 
-Metacharacters:
+------------
+| Brackets | are typically deployed in symmetric pairs, and an individual bracket may be identified as a "Left bracket" or "Right bracket" or, alternatively, an "Opening bracket" or "Closing bracket", respectively, depending on the directionality of the context.
+------------
+    https://en.wikipedia.org/wiki/Bracket
+()  (Round) Brackets / Parentheses
+[]  Square brackets
+{}  Braces / Curly braces / Curly brackets
+<>  Angle brackets / Chevrons
+
+------------------
+| Metacharacters |
+------------------
 	. ^ $ * + ? { } [ ] \ | ( )     They are not active inside classes.
 
-.       (Dot.) In the default mode, this matches any character except a newline.
+.       (Dot/Period.) In the default mode, this matches any character except a newline.
         If the DOTALL flag has been specified, this matches any character including a newline.
         (?s:.) matches any character regardless of flags.
 

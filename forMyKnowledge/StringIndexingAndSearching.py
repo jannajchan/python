@@ -99,7 +99,7 @@ print("\t", find_whole_word("This is a test string", "test"))       # Output: 10
 
 
 """
-# [💪 Challenge ✨1.3] Find All Whole Word Occurrences ================================================================ *** I got different output from ChatGPT and still couldn't find solution.
+# [💪 Challenge ✨1.3] Find All Whole Word Occurrences ================================================================ *** ⚠️🐞 I got different output from ChatGPT and still couldn't find solution. ***
 # ----------------------------------------------------------------------------------------------------------------------
     Problem:
         Write a function that returns a list of all starting indices where a whole word occurs in a sentence.
@@ -1136,7 +1136,7 @@ print("\t", longest_repeated_substring("mississippi"))              # Output: "i
 
 
 """
-# [💪 Challenge ✨7.1] Custom String Cleanup ========================================================================== *** I got different output from ChatGPT and still couldn't find solution.
+# [💪 Challenge ✨7.1] Custom String Cleanup ========================================================================== *** ⚠️🐞 I got different output from ChatGPT and still couldn't find solution. ***
 # ----------------------------------------------------------------------------------------------------------------------
     (Practice Challenge)
     Problem:
@@ -1148,7 +1148,7 @@ print("\t", longest_repeated_substring("mississippi"))              # Output: "i
         def cleanup_text(text: str) -> str
             pass
     Example:
-        cleanup_text("Hello,,   world!! This   is... a test,,   okay?")         # Output: "Hello, world This is a test, okay"
+        cleanup_text("Hello,,   world!! This   is... a test,,   okay?")         # Output: Hello, world This is a test, okay
 # ----------------------------------------------------------------------------------------------------------------------
 """
 def cleanup_text(text: str) -> str:
@@ -1165,11 +1165,11 @@ def cleanup_text(text: str) -> str:
     return text.strip()                                                         # Remove leading and trailing whitespace — trim start/end spaces.
 
 print("\n[💪 Challenge ✨7.1] Custom String Cleanup ---------------------------------------")
-print("\t", cleanup_text("Hello,,   world!! This   is... a test,,   okay?"))    # Output: "Hello, , world! ! This is. .. a test, , okay?"
-print("\t", cleanup_text("   Hello\t\tworld! \n This   is  messy.  "))          # Output: "Hello world! This is messy."
-print("\t", cleanup_text("Hello , world!This is messy .Really ?Yes!"))          # Output: "Hello, world! This is messy. Really? Yes!"
-print("\t", cleanup_text("Hello ,world!This is good.Really?Yes!"))              # Output: "Hello, world! This is good. Really? Yes!"
-print("\t", cleanup_text(" Hello ,   world!This is   a test. "))                # Output: "Hello, world! This is a test."
+print("\t", cleanup_text("Hello,,   world!! This   is... a test,,   okay?"))    # Output: Hello, , world! ! This is. .. a test, , okay?
+print("\t", cleanup_text("   Hello\t\tworld! \n This   is  messy.  "))          # Output: Hello world! This is messy.
+print("\t", cleanup_text("Hello , world!This is messy .Really ?Yes!"))          # Output: Hello, world! This is messy. Really? Yes!
+print("\t", cleanup_text("Hello ,world!This is good.Really?Yes!"))              # Output: Hello, world! This is good. Really? Yes!
+print("\t", cleanup_text(" Hello ,   world!This is   a test. "))                # Output: Hello, world! This is a test.
 
     # ---------------------------------------------------------------------------------------------------------------------------------------------------------------
     # | 👆 Explanation of the above function "def cleanup_text(text: str) -> str" Regular Expression in more detail (step-by-step): 👆                             |
@@ -1229,7 +1229,7 @@ print("\t", cleanup_text(" Hello ,   world!This is   a test. "))                
         def cleanup_text_enhance(text: str) -> str:
             pass
     Example:
-        cleanup_text_enhance('Wow!!  "Really?" she asked.  (Unbelievable! )  ')         # Output: 'Wow! "Really?" she asked. (Unbelievable!)'
+        cleanup_text_enhance('Wow!!  "Really?" she asked.  (Unbelievable! )  ')         # Output: Wow! "Really?" she asked. (Unbelievable!)
 # ----------------------------------------------------------------------------------------------------------------------
 """
 def cleanup_text_enhance(text: str) -> str:
@@ -1249,19 +1249,31 @@ def cleanup_text_enhance(text: str) -> str:
     return text
 
 print("\n[💪 Challenge ✨7.2] Enhanced cleanup_text function ------------------------------")
-print("\t", cleanup_text_enhance('Wow!!  "Really?" she asked.  (Unbelievable! )  '))    # Output: 'Wow! ! "Really?" she asked. (Unbelievable! )'
-print("\t", cleanup_text_enhance('Wow!"Really?" she asked.'))                           # Output: 'Wow! "Really?" she asked.'
-print("\t", cleanup_text_enhance("No, no! Don't do that. 'Stop!' he yelled."))          # Output: "No, no! Don't do that. 'Stop!' he yelled."
-print("\t", cleanup_text_enhance('"Wait!"she said. "Now."'))                            # Output: '"Wait! "she said. "Now."'
-print("\t", re.sub(r'([.!?,])(["\'])', r'\1 \2', 'Wow!"Really?" she asked.'))           # Output: 'Wow! "Really? " she asked.'
-print("\t", re.sub(r'([.!?,])(?=["])', r'\1 ',   'Wow!"Really?" she asked.'))           # Output: 'Wow! "Really? " she asked.'
+print("\t", cleanup_text_enhance('Wow!!  "Really?" she asked.  (Unbelievable! )  '))    # Output: Wow! ! "Really?" she asked. (Unbelievable! )
+print("\t", cleanup_text_enhance('Wow!"Really?" she asked.'))                           # Output: Wow! "Really?" she asked.
+print("\t", cleanup_text_enhance("No, no! Don't do that. 'Stop!' he yelled."))          # Output: No, no! Don't do that. 'Stop!' he yelled.
+print("\t", cleanup_text_enhance('"Wait!"she said. "Now."'))                            # Output: "Wait! "she said. "Now."
+print("\t", cleanup_text_enhance("Hello!!!!     George.... How are you????"))           # Output: Hello! ! ! ! George. . . . How are you? ? ? ?
+print("\t", cleanup_text_enhance("  This\t has  \n  multiple   whitespaces  .  "))      # Output: This has multiple whitespaces .
 
-def cleanup_text_myEnhance(text: str) -> str:
+
+"""
+# [💪 Challenge ✨7.3] My Enhanced cleanup_text function ==============================================================
+# ----------------------------------------------------------------------------------------------------------------------
+    Goal:
+        Collapse the duplicates of special characters.
+    Function Signature:
+        def cleanup_text_myEnhance(text: str) -> str:
+            pass
+    Example:
+        cleanup_text_myEnhance('Wow!!  "Really?" she asked.  (Unbelievable! )  ')         # Output: Wow! "Really?" she asked. (Unbelievable!)
+# ----------------------------------------------------------------------------------------------------------------------
+"""
     # -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     # | Regex: Effectively collapse the duplicates of special characters (a special character followed by one or more repetitions of the same special character)                                    |
     # |     replaced with just the single captured special character, while leaving the duplicate English alphabets untouched.                                                                      |
     # |                                                                                                                                                                                             |
-    # | 👇 Explanation of the Regular Expression: 👇                                                                                                                                               |
+    # | 👇 Explanation of the Regular Expression: re.sub(r'([^a-zA-Z])\1+', r'\1', text) 👇                                                                                                        |
     # | ([^a-zA-Z]):                                                                                                                                                                                |
     # |     matches any single character that is not an English alphabet. This effectively targets special characters and whitespace characters.                                                    |
     # |     ➞ [^...]: This is a negated character set. It matches any character that is not inside the brackets.                                                                                   |
@@ -1286,36 +1298,51 @@ def cleanup_text_myEnhance(text: str) -> str:
     # |     - If you have ...., the first . is captured, and the subsequent ... are matched by \1+. The entire sequence is replaced by a single .                                                   |
     # |     - Duplicate English alphabets (like aaaa) will not be matched because they fall within the a-zA-Z part of the negated character set.                                                    |
     # -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    text = re.sub(r'([^a-zA-Z])\1+', r'\1', text) # Not complete yet
-    # text = re.sub(r'(.)\1+', r'\1', text)     ⇐ This regex pattern will collapse all characters, including alphabets.
-    # text = re.sub(r'\\\\+', r'\\', text)      ⇐ This regex pattern will collapse duplicates \
-    # text = re.sub(r',,+', r',', text)         ⇐ This regex pattern will collapse duplicates ,
+    # What does these regex patterns do?
+    # re.sub(r'(.)\1+', r'\1', text)                ⇐ Collapses any sequence of one or more identical characters into a single instance of that character (except newline by default).
+    # re.sub(r'\\\\+', r'\\', text)                 ⇐ Collapses one or more consecutive double backslashes (\\) into a single backslash (\). 
+    # re.sub(r',,+', r',', text)                    ⇐ Collapses one or more consecutive commas into a single comma.
+    # re.sub(r'([.!?,])(?=["])', r'\1 ', text)      ⇐ Inserts a space after a sentence-ending punctuation mark ([.!?,]), if it is immediately followed by a double quote ( " ). The double quote itself remains. 
+    # re.sub(r'([.!?,])(["\'])', r'\1 \2', text)    ⇐ Inserts a space between a sentence-ending punctuation mark ([.!?,]) and a following double quote, single quote, or closing parenthesis.
+    # -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-    # # Step 1: Avoid touching apostrophes (') inside words (like don't, he's)
-    # # So we'll temporarily protect them
-    # text = re.sub(r"(\w)'(\w)", r"\1{{APOSTROPHE}}\2", text)
-    # # Step 2: Add space after punctuation if not followed by space or quote
-    # text = re.sub(r'([.!?,])(?=[^\s"\'])', r'\1 ', text)
-    # # Step 3: Remove space before closing quotes (e.g. ? ")
-    # text = re.sub(r'([.!?,])\s+([\'"])', r'\1\2', text)
-    # # Step 4: Add space before an opening quote if not already spaced
-    # text = re.sub(r'(?<![\s])(["\'])(?=\w)', r' \1', text)
-    # # Step 5: Clean up extra spaces
-    # text = re.sub(r'\s+', ' ', text).strip()
-    # # Step 6: Restore apostrophes
-    # text = text.replace('{{APOSTROPHE}}', "'")
+def cleanup_text_myEnhance(text: str) -> str:
+    text = re.sub(r'([^a-zA-Z])\1+', r'\1', text)   # Collapses the duplicates of special characters while leaving the duplicate English alphabets untouched
+    # Step 1: Avoid touching apostrophes (') inside words (like don't, he's)
+    # So we'll temporarily protect them
+    text = re.sub(r"(\w)'(\w)", r"\1{{APOSTROPHE}}\2", text)
+    # Step 2: Add space after punctuation if not followed by space or quote
+    text = re.sub(r'([.!?,])(?=[^\s"\'])', r'\1 ', text)
+    # Step 3: Remove space before closing quotes (e.g. ? ")
+    text = re.sub(r'([.!?,])\s+([\'"])', r'\1\2', text)
+    # Step 4: Add space before an opening quote if not already spaced
+    text = re.sub(r'(?<![\s])(["\'])(?=\w)', r' \1', text)
+    # Step 5: Clean up extra spaces
+    text = re.sub(r'\s+(?=[.!?,>)\]])', r'', text)  # Removes any extra spaces that might exist before these specific punctuation marks .!?,>)])
+    text = re.sub(r'\s+', ' ', text).strip()        # (1) Normalize internal whitespace 🡺 re.sub(r'\s+', ' ', text): It replaces all sequences of one or more whitespace characters within the text with a single space. (Reduce multiple spaces, tabs, and newlines within the text to single spaces.)
+                                                    # (2) Remove leading and trailing whitespace 🡺 .strip(): It cleans up any extra whitespace at the beginning and end of the string, ensures that the string does not start or end with any unnecessary spaces, tabs, or newlines.
+    # Step 6: Restore apostrophes
+    text = text.replace('{{APOSTROPHE}}', "'")
     return text
 
 print("\n[💪 Challenge ✨7.3] My enhanced cleanup_text ------------------------------------")
-print("\t", cleanup_text_myEnhance('Wow!!  "Really?" she asked.  (Unbelievable! )  '))  # Output: 
-print("\t", cleanup_text_myEnhance('Wow!"Really?" she asked.'))                         # Output: 
-print("\t", cleanup_text_myEnhance("No, no! Don't do that. 'Stop!' he yelled."))        # Output: 
-print("\t", cleanup_text_myEnhance('"Wait!"she said. "Now."'))                          # Output: 
+print("\t", cleanup_text_myEnhance('Wow!!  "Really?" she asked.  (Unbelievable! )  '))  # Output: Wow! "Really?" she asked. (Unbelievable!)
+print("\t", cleanup_text_myEnhance('Wow!"Really?" she asked.'))                         # Output: Wow! "Really?" she asked.
+print("\t", cleanup_text_myEnhance("No, no! Don't do that. 'Stop!' he yelled."))        # Output: No, no! Don't do that. 'Stop!' he yelled.
+print("\t", cleanup_text_myEnhance('"Wait!"she said. "Now."'))                          # Output: "Wait! "she said. "Now."
+print("\t", cleanup_text_myEnhance("Hello!!!!     George.... How are you????"))         # Output: Hello! George. How are you?
+print("\t", cleanup_text_myEnhance("  This\t has  \n  multiple   whitespaces  .  "))    # Output: This has multiple whitespaces.
 
-input1 = "Hello!!!!     George.... How are you????"
-output1 = text = re.sub(r'([^a-zA-Z])\1+', r'\1', input1)
-print(f"Input:   '{input1}'")
-print(f"Output:  '{output1}'")
+print("\nTest Regex ------------------------------------------------------------------------")
+input = "Hello!!!!     George.... How are you????"
+output = re.sub(r'([^a-zA-Z])\1+', r'\1', input)
+print(f"Input:  '{input}'", "\t\t", f"Output:  '{output}'")
+print("\t", re.sub(r'([.!?,])(?=["])', r'\1 ', 'Wow!"Really?" she asked.'))             # Output: Wow! "Really? " she asked.
+print("\t", re.sub(r'([.!?,])(["\'])', r'\1 \2', 'Wow!"Really?" she asked.'))           # Output: Wow! "Really? " she asked.
+print("\t", re.sub(r'([.!?,])(["\'])', r'\1 \2', '"Hello."World"'))                     # Output: "Hello. "World"
+print("\t", re.sub(r'([.!?,])(["\'])', r'\1 \2', '"Is it?\""'))                         # Output: "Is it? "" ↔️ "Is it? "\""     *** ⚠️🐞 I got different output from ChatGPT and still couldn't find solution. ***
+print("\t", re.sub(r'([.!?,])(["\'])', r'\1 \2', ''"item,'value')"''))                  # Output: item, 'value')
+
 
 """
 # [💪 Challenge ✨]  ==================================================================================================

@@ -2,21 +2,41 @@
 #👏😎
 
 😲👀
-🧡🧠👊🏻💪👍👉👇✍🤝🙌👏
+🧡💙🧠👊🏻💪👍👉👇✍🤝🙌👏
 🚀🎯🧩📚
 ✨🌟💡⚡💬💨
 🔥💥🧨🚨
-🖼️📜📋
+🖼️📜📋📅
 🧹✂️🧵🪜
-🔑🏛️🌼🎁🔬
+🔑🏛️🌼🌱🎁🔬🔭👤
 ❗❓🛑🔴🟡🔵🌀🔹🔸
 
->> Arrow
+---------
+| Arrow |
+---------
 Left	⬅️◀️↩️←⇐🡸
 Right	➡️▶️↪️→⇒🡺➤➠➔➞⟶
 Up		⬆️▲⤴️↑⇑🡹
 Down	⬇️▼⤵️↓⇓🡻
-↷↶↻↺ ⤚⤙ 🔁
+↷↶↻↺ ⤚⤙
+
+>> Emoji-Style Two-Way Arrows
+🔁	Repeat / Loop / Sync
+🔃	Clockwise loop / Update
+↔️	Horizontal two-way arrow / Bidirectional communication
+↕️	Vertical two-way arrow
+🔄	Reload / Refresh / Rotation
+⬌	Curved horizontal two-way arrow
+⬍	Curved vertical two-way arrow
+
+>> Unicode Two-Way Arrows
+↔️	Left-right arrow
+↕️	Up-down arrow
+⇄	Right arrow with hook (exchange) / Sync / Update
+⇆	Left arrow over right arrow
+⇅	Up arrow over down arrow
+⇋	Right arrow with loop
+⇌	Equilibrium / Chemical exchange / Chemical reactions / System balance
 
 >> Tech & Dev Tools
 💻	Computer
@@ -71,7 +91,7 @@ Down	⬇️▼⤵️↓⇓🡻
 🗃️  Archive
 
 >> Resume / CV / LinkedIn
-Contact Info	📞 Phone, ✉️ Email, 🌐 Website
+Contact Info	📞 Phone, ✉️📧 Email, 🌐 Website
 Location		📍 Current City or Address
 Education		🎓 University, Degree
 Work Experience	💼 Job, Professional Background
@@ -277,6 +297,39 @@ Full-width (Wide)	０, １, ２, …
 
 >> Great Job / Excellence
 💯	Perfect / Excellent
+
+-----------------------------------
+| Warnings, Alerts, Caution Signs |
+-----------------------------------
+>> General Warning Icons
+⚠️	General warning / Caution
+❗  Important / Urgent
+❕  Mild alert / Attention
+🔺	Alert / Hazard symbol
+🔻	Warning / Dropping level
+❓  Uncertainty / Needs checking
+
+>> Prohibited / Danger / Do Not
+🚫	Do not / Forbidden
+⛔  No entry / Restricted
+🔞	Age restricted / 18+
+☣️	Biohazard
+☢️	Radioactive / Nuclear warning
+🛑	Stop / Hard block
+
+>> Emergency / Safety Tools
+🧯	Fire extinguisher / Safety
+🧭	Navigation / Emergency guide
+🆘	SOS / Emergency situation
+🧨	Risk / Explosive danger
+🪪	ID / Authorized personnel only
+
+>> System Alerts / Errors
+🛠️🔧  Maintenance / Fix needed
+🐞	Bug found
+💣	Crash / Critical failure
+🧱	Blocked / Firewall alert
+🧊	Frozen / Inactive system
 
 >> Symbols
 §	Section
