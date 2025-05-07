@@ -56,7 +56,7 @@ class Solution:
 
 solution = Solution()
 print("Ex1:", solution.strStr("sadbutsad", "sad"))      # Output: 0
-print("Ex2:", solution.strStr("leetcode", "leeto"))     # Output: -1
+print("Ex2:", solution.strStr("leetcode", "leeto"))     # Output: -1 (No match found)
 
 """
 # ----------------------------------------------------------------------------------------------------------------------
