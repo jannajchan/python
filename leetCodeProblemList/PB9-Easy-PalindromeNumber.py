@@ -1,6 +1,6 @@
 """
 # ----------------------------------------------------------------------------------------------------------------------
-# Problem 9: Palindrome Number
+# Problem 9: Palindrome Number (A number (such as 16361) that remains the same when its digits are reversed. In other words, it has reflectional symmetry across a vertical axis.)
 # https://leetcode.com/problems/palindrome-number/
 # ----------------------------------------------------------------------------------------------------------------------
 Given an integer x, return true if x is a palindrome, and false otherwise.

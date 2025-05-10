@@ -1,6 +1,6 @@
 """
 # ----------------------------------------------------------------------------------------------------------------------
-💡 Very Simple Example: Fibonacci Numbers
+🧠 Fibonacci Numbers
 (In mathematics, the Fibonacci sequence is a sequence in which each element is the sum of the two elements that precede it.)
 # ----------------------------------------------------------------------------------------------------------------------
 """
