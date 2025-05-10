@@ -12,6 +12,6 @@ class Solution:
         return []
 
 solution = Solution()
-print("Ex1:", solution.example_method())
-print("Ex2:", solution.example_method())
-print("Ex3:", solution.example_method())
+print("Ex1:", solution.example_method())    # Output: 
+print("Ex2:", solution.example_method())    # Output: 
+print("Ex3:", solution.example_method())    # Output: 

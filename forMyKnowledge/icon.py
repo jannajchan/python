@@ -2,7 +2,7 @@
 #👏😎
 
 😲👀
-🧡💙💛🧠👊🏻💪👍👉👇✍🤝🙌👏
+🧡💙💛🧠👊🏻💪👍👈👉👆👇✍🤝🙌👏
 🚀🎯🧩📚
 ✨🌟💡⚡💬💭💨🌞🌤️🌙
 🔥💥🧨🚨
@@ -216,8 +216,8 @@ Full-width (Wide)	０, １, ２, …
 💪	Strength / You nailed it / Accomplishment
 
 >> Pointers & Direction
-👉	Point right
 👈	Point left
+👉	Point right
 👆	Point up
 👇	Point down
 🫵	You / Direct callout
