@@ -183,6 +183,7 @@ Full-width (Wide)	０, １, ２, …
 😇	Innocent / Pure
 🥳	Celebrating / Party
 🕐–🕘 Clock face emojis (for 1–9)
+⏱️	Clock
 
 -----------------
 | Hand gestures | ⇐ Great for UI feedback, conversation, reaction buttons, or instructions.
