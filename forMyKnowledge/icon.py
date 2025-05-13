@@ -8,7 +8,7 @@
 🔥💥🧨🚨
 🖼️📜📋📄📅
 🧹✂️🧵🪜🎨💅
-🔑🏡🏠🏛️🌼🌱🕊️🎁⚖️🔬🔭👤🧘‍♀️
+🔑🏡🏠🏛️🌼🌱🕊️🎁⚖️🔬🔭👤🧘‍♀️🚶
 🔮🃏🪞
 ❗❓🛑🔴🟡🔵🌀🔹🔸
 
@@ -299,6 +299,37 @@ Full-width (Wide)	０, １, ２, …
 
 >> Great Job / Excellence
 💯	Perfect / Excellent
+
+--------------
+| Organizing |
+--------------
+>> File & Document Organization
+🗂️  File organizer / Sorted folders
+📁	Folder / General file storage
+📂	Open folder / Active access
+🗃️  Card file box / Archive
+🗄️  Filing cabinet / Record keeping
+
+>> Calendar & Planning Tools
+📅	Calendar / Daily schedule
+🗓️  Tear-off calendar / Event tracking
+🕒	Time / Appointment
+🗒️  Notebook / Notes
+📝	Write down / Plan
+📌	Pin task / Highlight item
+
+>> Task & Workflow Organization
+🧩	Puzzle / Piece of plan
+🗃️  Index system / Sort by category
+📋	Checklist / To-do list
+✔️	Task completed / Done
+🔄	Recurring task / Rotation
+
+>> Tools for Organizing
+🛠️🔧  Tools / Setup
+⚙️	Settings / Configuration
+🧰	Toolbox / Organizational resources
+🗜️  Clamp / Compression / Pack
 
 -----------------------------------
 | Warnings, Alerts, Caution Signs |
