@@ -50,6 +50,24 @@ __pycache__/
 #       | git status                                |   ⇐ You should not see anything from 'temp/'.
 #       ---------------------------------------------
 # 
-# 🛑 Git will continue tracking files that were already committed before you added them to '.gitignore'.
+# ⚠️ Git will continue tracking files that were already committed before you added them to '.gitignore'.
 #     So even if '.gitignore' says to ignore a folder, Git still shows them in Source Control because they're already in the index.
+# ----------------------------------------------------------------------------------------------------------------------
+# 🎯 Do I need to add '.gitignore' in the '.gitignore' file?
+#     You don't need to add '.gitignore' to itself in the '.gitignore' file.
+# 
+# 📚 Why?
+#     - The '.gitignore' file is meant to control what Git should ignore.
+#     - But the '.gitignore' file itself is useful to track in most projects — so you (and others) know what should be excluded.
+#     That’s why by default, .gitignore is not ignored.
+# 
+# 🔒 Only ignore '.gitignore' if you really mean it
+#     You might want to ignore '.gitignore' if:
+#     - You're generating it temporarily for scripts/testing
+#     - You want project-specific ignore rules in local dev, but don't want them committed
+#     But again ... that's rare and not recommended for shared projects.
+# 
+# 📢 Best Practice: keep '.gitignore' tracked, so ...
+#     - Your ignore rules are shared with others
+#     - You have version history for your ignore rules
 # ----------------------------------------------------------------------------------------------------------------------
