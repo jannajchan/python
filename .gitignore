@@ -1,0 +1,27 @@
+# Ignore personal project folders
+forNBigProject/
+myFlaskWebApp/
+
+# Ignore all png files
+*.png
+
+# Ignore Python cache
+__pycache__/
+
+
+# ----------------------------------------------------------------------------------------------------------------------
+# ✨ If Git already tracked the folder before, remove it from index
+# If the folder tempProjects/ was already committed earlier, Git will keep tracking it unless you untrack it:
+#     -----------------------------------------------------
+#     | git rm -r --cached python/tempProjects/           |
+#     -----------------------------------------------------
+# Then commit:
+#     -----------------------------------------------------
+#     | git commit -m "Stop tracking tempProjects folder" |
+#     -----------------------------------------------------
+# ✨ To Confirm it’s Ignored, run:
+#     -----------------------------------------------------
+#     | git status                                        |
+#     -----------------------------------------------------
+# You should not see anything from python/tempProjects/.
+# ----------------------------------------------------------------------------------------------------------------------
