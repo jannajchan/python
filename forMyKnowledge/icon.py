@@ -318,18 +318,20 @@ Full-width (Wide)	０, １, ２, …
 📝	Write down / Plan
 📌	Pin task / Highlight item
 
->> Task & Workflow Organization
-🧩	Puzzle / Piece of plan
+>> Task & List & Workflow Organization
 🗃️  Index system / Sort by category
-📋	Checklist / To-do list
-✔️	Task completed / Done
+📋	Checklist / To-do list / Clipboard
+☑️	Checked Box
+✔️	Task completed / Done / Checkmark
 🔄	Recurring task / Rotation
+🔁	Loop / Repeat
 
->> Tools for Organizing
+>> Tools & Organizing Resources
 🛠️🔧  Tools / Setup
 ⚙️	Settings / Configuration
 🧰	Toolbox / Organizational resources
 🗜️  Clamp / Compression / Pack
+🧩	Puzzle / Piece of plan
 
 -----------------------------------
 | Warnings, Alerts, Caution Signs |
@@ -363,6 +365,37 @@ Full-width (Wide)	０, １, ２, …
 💣	Crash / Critical failure
 🧱	Blocked / Firewall alert
 🧊	Frozen / Inactive system
+
+----------------
+| Money & Gold |
+----------------
+>> Money & Wealth
+💰	Money Bag
+💸	Money with Wings
+💵	Dollar Banknote
+💴	Yen Banknote
+💶	Euro Banknote
+💷	Pound Banknote
+🪙	Coin
+🤑	Money-Mouth Face
+🧾	Receipt
+
+>> Gold & Valuable Items
+🪙	Coin (Gold/Silver)
+💎	Gem Stone / Wealth
+🔑	Key (Valuable access)
+🏆	Trophy (Golden prize)
+👑	Crown (Royal gold)
+🪙	(Represents gold in games and currency)
+
+>> Banking & Finance
+🏦	Bank
+🏧	ATM
+💳	Credit Card
+🧾	Receipt
+📝	Bill / Contract
+📈	Graph Up (Profit)
+📉	Graph Down (Loss)
 
 >> Symbols
 §	Section
