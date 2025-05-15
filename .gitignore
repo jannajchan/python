@@ -4,12 +4,33 @@ myFlaskWebApp/
 
 # Ignore specific files
 icon.py
+RegularExpressions.py
+TemplateEX.py
+TypesOfInheritance.py
 
 # Ignore all png files
 *.png
 
 # Ignore Python cache
 __pycache__/
+*.pyc
+
+# Ignore Virtual environments
+env/
+venv/
+
+# Ignore Environment variables
+.env
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore OS junk
+.DS_Store
+Thumbs.db
+
+# Ignore Excel or temp data
+*.xlsx
 
 
 # ----------------------------------------------------------------------------------------------------------------------
