@@ -1,7 +1,9 @@
-# Ignore personal project folders
-# You don’t need 'python/' prefix in paths — you’re already inside it (direct children of the Git root).
+# Ignore personal project folders (You don’t need 'python/' prefix in paths — you’re already inside it (direct children of the Git root)).
 forNBigProject/
 myFlaskWebApp/
+
+# Ignore specific files
+icon.py
 
 # Ignore all png files
 *.png
