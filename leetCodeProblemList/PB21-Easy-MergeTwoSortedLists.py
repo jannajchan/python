@@ -65,12 +65,12 @@ class Solution:
 
 # --- Helper Functions ---
 # To convert Python list to Linked List
-def build_linked_list(arr):
-    if not arr:
+def build_linked_list(list):
+    if not list:
         return None
-    head = ListNode(arr[0])
+    head = ListNode(list[0])
     current = head
-    for val in arr[1:]:
+    for val in list[1:]:
         current.next = ListNode(val)
         current = current.next
     return head
@@ -86,26 +86,22 @@ def print_linked_list(head: Optional[ListNode]):
 def parse2ListToMerge(list1, list2):
     list1 = build_linked_list(list1)
     list2 = build_linked_list(list2)
-    #print_linked_list(list1)
-    #print_linked_list(list2)
-    #print("not list1:", not list1)
-    #print("not list2:", not list2)
 
     solution = Solution()
     merged = solution.mergeTwoLists_RecuriveApproach(list1, list2)
     print_linked_list(merged)
 
 print("Ex1:", end=" ")
-parse2ListToMerge([1,2,4], [1,3,4])         # Output: [1, 1, 2, 3, 4, 4]
+parse2ListToMerge([1,2,4], [1,3,4])         # Output: [1, 1, 2, 3, 4, 4]                1 -> 1 -> 2 -> 3 -> 4 -> 4 -> None
 
 print("Ex2:", end=" ")
-parse2ListToMerge([], [])                   # Output: []
+parse2ListToMerge([], [])                   # Output: []                                None
 
 print("Ex3:", end=" ")
-parse2ListToMerge([], [0])                  # Output: [0]
+parse2ListToMerge([], [0])                  # Output: [0]                               0 -> None
 
 print("Ex4:", end=" ")
-parse2ListToMerge([0], [])                  # Output: [0]
+parse2ListToMerge([0], [])                  # Output: [0]                               0 -> None
 
 print("Ex5:", end=" ")
-parse2ListToMerge([1,3,5,7,9], [2,6,8,9])   # Output: [1, 2, 3, 5, 6, 7, 8, 9, 9]
+parse2ListToMerge([1,3,5,7,9], [2,6,8,9])   # Output: [1, 2, 3, 5, 6, 7, 8, 9, 9]       1 -> 2 -> 3 -> 5 -> 6 -> 7 -> 8 -> 9 -> 9 -> None
