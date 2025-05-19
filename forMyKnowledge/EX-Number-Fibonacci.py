@@ -6,15 +6,15 @@
 """
 
 # Recursive version
-def fib_Recursive(n):
+def fib_recursive(n):
     if n <= 1:
         return n
-    return fib_Recursive(n-1) + fib_Recursive(n-2)
+    return fib_recursive(n-1) + fib_recursive(n-2)
 
-print("Fibonacci (Recursive):", fib_Recursive(8))
+print("Fibonacci (Recursive):", fib_recursive(8))
 
 # Iterative version
-def fib_Iterative(n):
+def fib_iterative(n):
     if n <= 1:
         return n
     prev, curr = 0, 1
@@ -22,7 +22,7 @@ def fib_Iterative(n):
         prev, curr = curr, prev + curr
     return curr
 
-print("Fibonacci (Iterative):", fib_Iterative(8))
+print("Fibonacci (Iterative):", fib_iterative(8))
 
 """
 # ----------------------------------------------------------------------------------------------------------------------
