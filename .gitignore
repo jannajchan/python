@@ -3,7 +3,7 @@ forNBigProject/
 myFlaskWebApp/
 
 # Ignore specific files
-EX-Graph-DataFromThaiDataAPI.py
+EX_Graph_DataFromThaiDataAPI_config.py
 icon.py
 RegularExpressions.py
 TypesOfInheritance.py
